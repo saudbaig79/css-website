@@ -3,23 +3,27 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'CSS — Film, Media & Production Services',
-  description: 'CSS provides consultancy and services across the film and media industry, from location scouting and equipment rental to studio rental and marketing.',
-  applicationName: 'CSS',
-  authors: [{ name: 'CS Services Ltd t/a CSS' }],
-  creator: 'CS Services Ltd t/a CSS',
-  publisher: 'CS Services Ltd t/a CSS',
+  metadataBase: new URL('https://stylo-puce.vercel.app'),
+  title: {
+    default: 'CSS — Film, Media & Production Services',
+    template: '%s — CSS',
+  },
+  description: 'CSS provides consultancy and practical services across film and media, including locations, equipment, studios, marketing and investment-related support.',
   openGraph: {
     title: 'CSS — Film, Media & Production Services',
     description: 'Consultancy and practical services for film and media projects.',
     type: 'website',
     siteName: 'CSS',
+    url: 'https://stylo-puce.vercel.app',
+    images: [{ url: '/images/css-hero.png', width: 1600, height: 900, alt: 'Cinematic film production environment' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'CSS — Film, Media & Production Services',
     description: 'Consultancy and practical services for film and media projects.',
+    images: ['/images/css-hero.png'],
   },
+  robots: { index: true, follow: true },
   icons: {
     icon: [
       {
