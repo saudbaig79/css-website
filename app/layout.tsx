@@ -5,7 +5,21 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'CSS — Film, Media & Production Services',
   description: 'CSS provides consultancy and services across the film and media industry, from location scouting and equipment rental to studio rental and marketing.',
-  generator: 'v0.app',
+  applicationName: 'CSS',
+  authors: [{ name: 'CS Services Ltd t/a CSS' }],
+  creator: 'CS Services Ltd t/a CSS',
+  publisher: 'CS Services Ltd t/a CSS',
+  openGraph: {
+    title: 'CSS — Film, Media & Production Services',
+    description: 'Consultancy and practical services for film and media projects.',
+    type: 'website',
+    siteName: 'CSS',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'CSS — Film, Media & Production Services',
+    description: 'Consultancy and practical services for film and media projects.',
+  },
   icons: {
     icon: [
       {
