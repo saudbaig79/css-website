@@ -14,13 +14,6 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'CSS',
     url: 'https://stylo-puce.vercel.app',
-    images: [{ url: '/images/css-hero.png', width: 1600, height: 900, alt: 'Cinematic film production environment' }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'CSS — Film, Media & Production Services',
-    description: 'Consultancy and practical services for film and media projects.',
-    images: ['/images/css-hero.png'],
   },
   robots: { index: true, follow: true },
   icons: {
