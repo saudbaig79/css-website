@@ -7,7 +7,7 @@ const services = [
   { number: '02', title: 'Location Scouting', text: 'Explore filming environments that align with your creative direction, location requirements and production brief.', href: '/services/location-scouting', image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85' },
   { number: '03', title: 'Equipment Rental', text: "Discuss production equipment requirements and explore rental options suited to your project's technical needs and schedule.", href: '/services/equipment-rental', image: 'https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1200&q=85' },
   { number: '04', title: 'Studio Rental', text: 'Explore studio rental requirements for filming, production and creative work, with enquiries tailored to your space and project needs.', href: '/services/studio-rental', image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=85' },
-  { number: '05', title: 'Marketing & Investment', text: 'Discuss marketing requirements, project positioning and investment-related opportunities within the film and media sector.', href: '/services/marketing-investment', image: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1200&q=85' },
+  { number: '05', title: 'Marketing & Investment', text: 'Discuss marketing requirements, project positioning and investment-related opportunities within the film and media sector.', href: '/services/marketing-investment', image: '/images/css-marketing-feature.png' },
 ]
 
 const principles = ['Project-Focused', 'Connected Services', 'Practical Thinking', 'Clear Communication']
