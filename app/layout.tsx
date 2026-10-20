@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://stylo-puce.vercel.app'),
+  metadataBase: new URL('https://cssservices.io'),
   title: {
     default: 'CSS — Film, Media & Production Services',
     template: '%s — CSS',
@@ -13,7 +13,14 @@ export const metadata: Metadata = {
     description: 'Consultancy and practical services for film and media projects.',
     type: 'website',
     siteName: 'CSS',
-    url: 'https://stylo-puce.vercel.app',
+    url: 'https://cssservices.io',
+    images: [{ url: '/images/css-hero.png', width: 1200, height: 630, alt: 'CSS film, media and production services' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CSS — Film, Media & Production Services',
+    description: 'Consultancy and practical services for film and media projects.',
+    images: ['/images/css-hero.png'],
   },
   robots: { index: true, follow: true },
   icons: {
