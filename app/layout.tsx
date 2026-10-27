@@ -2,18 +2,18 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cssservices.io'),
+  metadataBase: new URL('https://csservices.io'),
   title: {
     default: 'CSS — Film, Media & Production Services',
     template: '%s — CSS',
   },
-  description: 'CSS provides consultancy and practical services across film and media, including locations, equipment, studios, marketing and investment-related support.',
+  description: 'CSS provides consultancy and practical services across film and media, including locations, equipment, studios and marketing support.',
   openGraph: {
     title: 'CSS — Film, Media & Production Services',
     description: 'Consultancy and practical services for film and media projects.',
     type: 'website',
     siteName: 'CSS',
-    url: 'https://cssservices.io',
+    url: 'https://csservices.io',
     images: [{ url: '/images/css-hero.png', width: 1200, height: 630, alt: 'CSS film, media and production services' }],
   },
   twitter: {
